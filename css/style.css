@@ -4,6 +4,7 @@ body{
   padding: 0;
   font-family: "Anton",sans-serif;
   height: 100%;
+  scroll-behavior: smooth;
 }
 *{
   scroll-behavior: smooth;
@@ -79,7 +80,7 @@ body{
   position: absolute;
   top: 45%;
   left: 5%;
-  transform: translate(-10%, -40%);
+  transform: translate(-2%, -40%);
   color:#DCDCDC;
 }
 
@@ -90,7 +91,6 @@ body{
 }
 .movimento img{
 background-color: #fff;
-max-width: 100%;
 }
 .movimento-grid p{
 text-align: left;
@@ -186,7 +186,12 @@ justify-item: center;
   #chk:checked ~ .menu{
     right: 0;
   }
-
+  .image{
+   background-image: url("https://uploaddeimagens.com.br/images/002/082/984/original/fundo_site.png?1556853672")
+  }
+.body{
+  width: 100%;
+}
 .movimento-grid{
   display: grid;
   grid-template-columns: 1fr;
@@ -195,3 +200,10 @@ justify-item: center;
   display: grid;
   grid-template-columns: 1fr;
 }
+.footer-grid{
+
+  display:grid;
+  grid-template-columns:1fr;
+}
+
+
