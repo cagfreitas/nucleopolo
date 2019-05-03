@@ -1,4 +1,5 @@
 body{
+  width: 100%;
   margin: 0;
   padding: 0;
   font-family: "Anton",sans-serif;
@@ -99,7 +100,7 @@ background: #fff;
 
 .movimento-grid{
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr 2fr;
 justify-content: center;
 justify-item: center;
 }
@@ -113,7 +114,7 @@ justify-item: center;
 /*EVENTO*/
 .evento-grid{
   display:grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
 }
 .container{
   padding-bottom: 40px;
@@ -124,7 +125,7 @@ justify-item: center;
   float:left;
 }
 .contato{
-  font-family:"Raleway";
+  font-family:"montserrat";
   padding-top: 50px;
   padding-left: 5%;
   background-color: #0A0A2A;
@@ -146,7 +147,7 @@ justify-item: center;
   background-color: #070719;
 }
 .footer-grid p{
-  font-family: "sans-serif";
+  font-family: "montserrat";
   text-transform: uppercase;
   float:right;
   padding: 1%;
@@ -186,5 +187,11 @@ justify-item: center;
     right: 0;
   }
 
-
-
+.movimento-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.evento-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+}
